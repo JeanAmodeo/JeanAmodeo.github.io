@@ -1,0 +1,449 @@
+
+body{
+	font-family: "Crimson Text";
+}
+
+.logo {
+  position: fixed;
+  height: 2em;
+  margin: 1.5em 0 0 2em;
+  display: block;
+  width: 1em;
+  z-index: 100;
+  cursor: pointer;
+}
+
+
+
+.face{
+
+  position: fixed;
+  height: 2em;
+  margin:10em 0 0 2em;
+  display: block;
+  width: 1em;
+  z-index: 100;}
+
+  .face img{
+    height: 25em;
+    width: auto;
+
+  }
+
+  #profile {
+   height: 50em;
+   width: auto;
+
+ }
+
+
+
+ .logo img {
+   height: 5em;
+   width: auto;
+
+ }
+
+ .menu {
+  z-index: 100;
+  position: fixed;
+  right: 2em;
+  top: 20px;
+  text-align: right;
+  font-size: 1.4em;
+  width:150px;
+
+}
+
+.section{
+	padding-bottom: 30em;
+}
+
+#title-section{
+  padding-bottom: 5em;
+}
+
+
+
+hr
+{
+  border:none;
+  background-color : grey;
+  height : 2px;
+  width:100%;
+}
+
+h1,h2 {
+	text-align:left;
+}
+h1{font-family: "Abril Fatface";
+font-size : 120px}
+
+
+/*.title:hover:before{
+    content: '>';
+    padding-right: 0px;
+}
+
+.title:hover:after{
+    content: '<';
+    padding-right: 0px;
+}
+*/
+.jamod h1
+{
+  font-size:160px;
+}
+
+.menu-item{width:100%;}
+
+/*.menu {text-align: center;}*/
+
+.snip1562 {
+
+  font-family: 'Crimson Text';
+
+  background-color: #333;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-size: 15px;
+  line-height: 1em;
+  margin: 10px 2px;
+  outline: none;
+  padding: 10px 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  width:100%;
+}
+
+.snip1562:before,
+.snip1562:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1562:before {
+  border-color: #333;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  left: -5px;
+  top: -5px;
+}
+
+.snip1562:after {
+  border-bottom-width: 2px;
+  border-color: #333;
+  border-right-width: 2px;
+  bottom: -5px;
+  right: -5px;
+}
+
+.snip1562:hover,
+.snip1562.hover {
+  background-color: #333;
+}
+
+.snip1562:hover:before,
+.snip1562.hover:before,
+.snip1562:hover:after,
+.snip1562.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+
+.corde_svg
+{
+	margin-left: auto;
+	margin-right: auto;
+  stroke:#333;
+}
+
+hr
+{
+  background-color: #333;
+}
+
+#reviews-table p
+{
+  padding: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.customQuote
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.skills-blob
+{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding right: 50px;
+  height: 600px;
+  width:500px;
+  position: relative;
+  overflow: visible;
+}
+
+
+.skill
+{
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  /*padding-right: 30px;*/
+}
+
+.skill:hover
+{
+  position: absolute;
+  cursor:pointer;
+}
+
+.six
+{
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+.sept
+{
+  font-size: 40px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.huit
+{
+  font-size: 60px;
+  font-style: italic;
+
+}
+.neuf
+{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.dix
+{
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+
+
+
+#education-section li
+{
+
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+
+
+.change{
+
+
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+       -o-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+#rainScreen
+{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+#cowboy{
+  width: 100%;
+  height: auto;
+  z-index: 100}
+
+  .infobulle {
+    position: absolute;
+  }
+
+  .skill-span{
+    /*font-size: -3vh;*/
+    font-style: normal;
+    padding-top: 20px;
+    /*  top:-50%;*/
+    /*  position: absolute;*/
+  }
+
+  .fa-refresh:hover
+  {
+    cursor:pointer;
+  }
+
+
+  #contact-table td
+  {
+    padding-right : 20px
+  }
+
+
+
+
+
+  div.boton-2 {
+    margin:0 auto 150px 0;
+    width: 290px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  div.boton-2 a {
+    color: #333;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  div.boton-2:hover a {
+    color: #333;
+    border: none;
+    text-decoration: none;
+  }
+  div.boton-2 span {
+    font-family: Abril Fatface;
+    width: 100%;
+    position: absolute;
+    top:15px;
+    left:0;
+  }
+
+  div.boton-2 svg line {
+    stroke-width: 6;
+    stroke: #333;
+    fill: none;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  div.boton-2:hover svg line {
+    stroke: #333;
+  }
+
+  div.boton-2:hover svg line.L-T {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+  }
+  div.boton-2:hover svg line.L-B {
+    -webkit-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+        transform: translateY(-50px);
+  }
+  div.boton-2:hover svg line.R-T {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+        transform: translateY(50px);
+  }
+  div.boton-2:hover svg line.R-B {
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+        transform: translateY(20px);
+  }
+  div.boton-2:hover svg line.T-L {
+    -webkit-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+        transform: translateX(270px);
+  }
+  div.boton-2:hover svg line.T-R {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+        transform: translateX(20px);
+  }
+  div.boton-2:hover svg line.B-L {
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+  }
+  div.boton-2:hover svg line.B-R {
+    -webkit-transform: translateX(-270px);
+    -ms-transform: translateX(-270px);
+        transform: translateX(-270px);
+  }
+
+
+  .hobby-image{
+    height: 200px;
+    width: auto;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .drop {
+    top:0px;
+    left:0px;
+    position:absolute;
+    z-index:200;
+    width:3px;
+    height:30px;
+    background:-webkit-linear-gradient(white,#333);
+  }
+
+  .projects_img{
+
+    height: 50%;
+    width: auto;
+    padding-right: 20px;
+    padding-top: 10px;
+    float: right;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+
+  }
+
+  footer
+  {
+    text-align :center;
+    padding-bottom: 10px;
+  }
+
+  .references-img{
+    /*height: 20%;
+    width: auto;*/
+    padding-right: 20px;
+    padding-top: 10px;
+
+  }
+
+
+

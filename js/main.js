@@ -181,6 +181,20 @@ $(".fa-refresh").click(function(){
 	location.reload();
 });
 
+$("#rainButton").click(function(){
+	var rainScreen = document.getElementById("rainScreen");
+	if(rainScreen.style.visibility == "hidden")
+	{
+		rainScreen.style.visibility = "visible"
+		$("#rainButton").style.color = "#333"
+	}
+	else
+	{
+		rainScreen.style.visibility = "hidden"
+		$("#rainButton").style.color = "#afafaf"
+	}
+});
+
 $(".projects_img").hover(function(){
 	$(this).css('-webkit-transition','700ms' ); 
 	$(this).css('-webkit-filter' , 'grayscale(0%)');}, function(){
